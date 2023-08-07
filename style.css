@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Tektur:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background: rgb(22, 22, 22);
+}
+
+.banner {
+    background: #444;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    color: #fafafa;
+    line-height: 80px;
+    font-size: 40px;
+    font-family: 'Tektur', cursive;
+    /*border-bottom: solid #fafafa;*/
+    transition: 500ms;
+    text-decoration-line: none;
+}
+
+.youtube {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    height: 100px;
+    width: 130px;
+    z-index: 1;
+    background: none;
+    transition: 500ms;
+}
+
+.instagram {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+    height: 38px;
+    width: 38px;
+    z-index: 1;
+    background: none;
+    transition: 500ms;
+}
+
+.twitter {
+    position: absolute;
+    top: 5px;
+    left: 132px;
+    height: 68px;
+    width: 68px;
+    z-index: 1;
+    background: none;
+    transition: 500ms; 
+}
+
+.youtube:hover, .instagram:hover, .twitter:hover {
+    transition: 500ms;
+    transform: translate(0%, -5%);
+    transform: scale(80%);
+}
+
+.banner:hover {
+    color: coral;
+    cursor: pointer;
+}
+
+.banner:hover {
+    background: #444;
+    transition: 500ms;
+    font-size:50px;
+}
+
+.image1, .image2  {
+    width: 550px;
+    border-radius: 100px;
+    position: relative;
+    top: 100px;
+    right: -50px;
+    display: block;
+    transition: 500ms;
+}
+
+.image2 {
+    right: -750px;
+}
+
+.image1:hover, .image2:hover, .image3:hover, .image4:hover {
+    transition: 500ms;
+    transform: translate(0%, -5%);
+}
+
+.image3 {
+    height: 320px;
+    position: relative;
+    top: 90px;
+    left: 150px;
+    transition: 500ms;
+}
+
+.image4 {
+    height: 320px;
+    position: relative;
+    top: 85px;
+    right: -500px;
+    transition: 500ms; 
+}
+
+.text3 {
+    color: #fafafa;
+    position: relative;
+    top: 115px;
+    right: -800px;
+    font-family: 'Tektur', cursive;
+    font-size: 25px;
+    transition: 500ms;
+}
+
+.text4 {
+    color: #fafafa;
+    position: relative;
+    width: 500px;
+    top: 82px;
+    left: 100px;
+    font-family: 'Tektur', cursive;
+    font-size: 25px;
+    transition: 500ms;
+}
+
+.peoples {
+    color: #fafafa;
+    position: relative;
+    top: -100px;
+    right: -700px;
+    font-size: 45px;
+    font-family: 'Tektur', cursive;
+    transition: 500ms;
+}
+
+.peoples:hover, .text3:hover, .text4:hover {
+    color: coral;
+    cursor: default;
+    transition: 500ms;
+    transform: translate(0%, -5%);
+}
+
+/*.search {
+    height: 50px;
+    width: 50px;
+    background: coral;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    font-family:'Tektur', cursive;
+    font-size: 25px;
+    cursor: pointer;
+}*/
+
+.text {
+    color: #fafafa;
+    position: relative;
+    top: -85px;
+    right: -700px;
+    font-family: 'Tektur', cursive;
+    transition: 500ms;
+}
+
+.text:hover {
+    transform: translate(10%, 0%);
+    transition: 500ms;
+    cursor: default;
+}
+
+.text2 {
+    font-size: 28px;
+    width: 700px;
+    color: #fafafa;
+    font-family: 'Tektur', cursive;
+    position: relative;
+    left: 50px;
+    top: -50px;
+    transition: 500ms;
+}
+
+.text2:hover {
+    color: coral;
+    cursor: default;
+    transition: 500ms;
+    transform: translate(0%,-5%);
+}
+
+
+
+
+/*.answer {
+    background: #444;
+    color: #fafafa; 
+    position: relative;
+    top: -65;
+    right: -680;
+    font-family: 'Tektur', cursive;
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.answer::-webkit-input-placeholder {
+    color: #fafafa;
+    text-align: center;
+    font-family: 'Tektur', cursive;
+}
+
+.answer {
+    position: relative;
+    top: -105px;
+    right: -957px;
+    display: block;
+    display: inline;
+}*/
+
+.radio1 {
+   position: relative;
+   top: -70px;
+   right: -738px;
+}
+
+.radio2 {
+    position: relative;
+   top: -40px;
+   right: -722px; 
+}
+
+hr {
+    position: relative;
+    top: -115px;
+    right: -700px;
+    width: 500px;
+}
+
+.yes, .no {
+    color: #fafafa;
+    position: relative;
+    top: -91px;
+    width: 20px;
+    right: -700px;
+    font-family: 'Tektur', cursive;
+}
+
+.no {
+    top: -82px;
+}
